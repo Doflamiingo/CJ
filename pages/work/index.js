@@ -21,7 +21,7 @@ const Work = () => {
     "../09. ROAD TO RICHES/road-to-riches-2.jpg",
     "../10. SILHOUETTE/silhouette-1.jpg",
     "../11. SELF PORTRAIT/Cover-section-autoportrait.jpg",
-    "../12. bathroom/bathroom-1.jpg",
+    "../12. BATHROOM/bathroom-1.jpg",
   ];
 
   const links = [
