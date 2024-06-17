@@ -6,7 +6,7 @@ const InvisiblePain = () => {
  
 
   return (
-    <div className="scrollable-page bg-bgpain w-full h-full bg-local bg-cover bg-center">
+    <div className="scrollable-page bg-bgpain w-full h-full bg-local bg-cover bg-center ">
       <h3 className="flex justify-center items-center text-4xl font-nomark mt-5">
       Invisible Pain
       </h3>
@@ -29,7 +29,7 @@ const InvisiblePain = () => {
         }
       `}</style>
 
-      <div className="flex item-center justify-center">
+      <div className="flex item-center justify-center sm:mb-10">
         <div className="grid grid-cols-2 grid-rows-3 gap-x-5 xl:gap-y-20 sm:gap-y-5 mt-2 px-3 mb-10">
         <div>
           <img

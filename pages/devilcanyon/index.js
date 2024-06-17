@@ -28,8 +28,8 @@ const devilcanyon = () => {
         }
       `}</style>
 
-      <div className="flex item-center justify-center">
-        <div className="grid grid-cols-2 grid-rows-3 gap-x-5 xl:gap-y-20 sm:gap-y-5 mt-2 px-3 mb-10">
+      <div className="flex item-center justify-center sm:mb-10">
+        <div className="grid grid-cols-2 grid-rows-3 gap-x-5 xl:gap-y-20 sm:gap-y-5 mt-2 px-3 mb-10 ">
         <div>
           <img
             src="../05. DEVIL_S CANYON/devil-canyon-1.jpg"

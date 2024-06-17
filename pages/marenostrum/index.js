@@ -10,7 +10,7 @@ const  marenostrum = () => {
       <h3 className="flex justify-center items-center text-4xl font-nomark mt-5">
         Mare nostrum
       </h3>
-      <p className="flex justify-center items-center text-xl  text-white mb-28 xl:mb-10">
+      <p className="flex justify-center items-center text-xl  text-white mb-28 xl:mb-10 sm:px-5 sm:mb-10 sm:w-[100%] sm:text-sm">
       Shooting en collaborations avec la styliste <a href=" https://instagram.com/pereira.sarda?igshid=M2RkZGJiMzhjOQ== " target="_blank" className=" text-accent px-2">Pereira Sarda</a> pour sa collection « Mare Nostrum »
       </p>
       <div className="flex justify-center items-center mt-5 mb-5">
@@ -100,17 +100,12 @@ const  marenostrum = () => {
       </div>
       <div className="flex justify-center items-center space-x-4">
   <div className="flex items-center justify-center flex-none">
-    <video controls className="w-[25vw] h-[80vh] max-w-full max-h-full" poster="/above-the-sea-5.jpg">
+    <video controls className="w-[25vw] h-[80vh] sm:w-[75%] sm:mb-20 max-w-full max-h-full" poster="/background-mare-nostrum-section.jpg">
       <source src="/PS x CJV - Tenue 3 (2nd Ver.).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </div>
-  <div className="flex items-center justify-center flex-none">
-    <video controls className="w-[25vw] h-[80vh] max-w-full max-h-full" poster="/above-the-sea-5.jpg">
-      <source src="/CJ Visuals x Pereira Sarda - Collab Pt.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
+
 </div>
 
 

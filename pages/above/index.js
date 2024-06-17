@@ -72,7 +72,7 @@ const Above = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-  <video controls className="w-[25%] h-[80vh]" poster="/above-the-sea-5.jpg">
+  <video controls className="w-[25%] h-[80vh] sm:w-[75%] sm:mb-20" poster="/above-the-sea-5.jpg">
     <source src="/above-the-sea-video-compressed.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>

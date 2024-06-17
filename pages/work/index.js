@@ -126,7 +126,7 @@ const Work = () => {
           {images.map((imageSrc, index) => (
             <div key={index} className="image-container">
               <a href={links[index]} rel="noopener noreferrer">
-                <span className="image-title font-nomark xl:text-4xl text-2xl">
+                <span className="image-title font-nomark xl:text-4xl text-2xl sm:text-4xl">
                   {titles[index]}
                 </span>
                 <div className="image-overlay">
@@ -136,7 +136,7 @@ const Work = () => {
                     className="xl:h-[650px] xl:w-[500px]"
                   />
                 </div>
-                <span className="image-number font-nomark xl:text-6xl text-2xl">
+                <span className="image-number font-nomark xl:text-6xl text-2xl sm:text-4xl">
                   {String(index + 1).padStart(2, '0')}
                 </span>
               </a>

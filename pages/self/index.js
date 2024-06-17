@@ -82,7 +82,7 @@ const self = () => {
             />
           </div>
           <div className="flex items-center justify-center">
-  <video controls className="w-[25%] h-[80vh]" poster="/background-image-self-portrait.jpg">
+  <video controls className="w-[25%] h-[80vh] sm:w-[75%] sm:mb-20 sm:mt-5" poster="/background-image-self-portrait.jpg">
     <source src="/smoked-reel-autoportrait-laylow.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
