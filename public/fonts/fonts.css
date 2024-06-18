@@ -1,7 +1,13 @@
 @font-face {
-    font-family: 'Nomark';
-    src: url('../fonts/Nomark.woff2') format('truetype'); /* Assurez-vous d'ajuster le chemin du fichier en fonction de l'emplacement de votre fichier de police */
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+  font-family: 'Nomark';
+  src: url('../fonts/Nomark.woff2') format('woff2'); /* Assurez-vous d'ajuster le chemin du fichier en fonction de l'emplacement de votre fichier de police */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Louis';
+  src: url('../fonts/Louis.ttf') format('truetype'); /* Assurez-vous d'ajuster le chemin du fichier en fonction de l'emplacement de votre fichier de police */
+  font-weight: normal;
+  font-style: normal;
+}

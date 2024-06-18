@@ -10,7 +10,7 @@ const  marenostrum = () => {
       <h3 className="flex justify-center items-center text-4xl font-nomark mt-5">
         Mare nostrum
       </h3>
-      <p className="flex justify-center items-center text-xl  text-white mb-28 xl:mb-10 sm:px-5 sm:mb-10 sm:w-[100%] sm:text-sm">
+      <p className="flex justify-center items-center text-xl  text-white mb-28 xl:mb-10 sm:px-5 sm:mb-10 sm:w-[100%] sm:text-sm font-louis">
       Shooting en collaborations avec la styliste <a href=" https://instagram.com/pereira.sarda?igshid=M2RkZGJiMzhjOQ== " target="_blank" className=" text-accent px-2">Pereira Sarda</a> pour sa collection « Mare Nostrum »
       </p>
       <div className="flex justify-center items-center mt-5 mb-5">

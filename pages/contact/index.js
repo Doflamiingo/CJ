@@ -55,7 +55,7 @@ const Contact = () => {
             <FaInstagram />
           </a>
         </div>
-        <p className="text-xl mt-5">cjvisuals.contact@gmail.com</p>
+        <p className="text-xl mt-5 font-louis">cjvisuals.contact@gmail.com</p>
       </div>
       <div className="w-full h-full absolute right-0 bottom-0 z-100">
         {/* Utilisez motion.div pour appliquer l'animation sur le fond */}

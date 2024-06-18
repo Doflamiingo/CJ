@@ -51,6 +51,7 @@ module.exports = {
       },
       fontFamily: {
         nomark: [`Nomark`, "sans"],
+        louis: [`Louis`, "sans"],
         poppins: [`var(--font-poppins)`, "sans-serif"],
       },
     },
@@ -72,3 +73,14 @@ module.exports.purge = {
     ],
   },
 };
+module.exports.purge = {
+  // ...
+  options: {
+    // ...
+    safelist: [
+      // ...
+      "public/fonts/Louis.ttf", // Chemin vers le fichier de police
+    ],
+  },
+};
+
