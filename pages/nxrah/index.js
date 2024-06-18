@@ -71,7 +71,7 @@ const nxrah = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-  <video controls className="w-[25%] h-[80vh] sm:w-[75%] sm:mb-20 sm:mt-5" poster="/background-nxrah.jpg">
+  <video controls className="xl:w-[25%] xl:h-[80vh] sm:w-[75%] sm:mb-20 sm:mt-5" poster="/background-nxrah.jpg">
     <source src="/video-shoot-norah-diana-rema.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>

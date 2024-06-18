@@ -98,13 +98,13 @@ const  marenostrum = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center space-x-4">
-  <div className="flex items-center justify-center flex-none">
-    <video controls className="w-[25vw] h-[80vh] sm:w-[75%] sm:mb-20 max-w-full max-h-full" poster="/background-mare-nostrum-section.jpg">
+     
+      <div className="flex items-center justify-center">
+    <video controls className="xl:w-[25%] xl:h-[80vh] sm:w-[75%] sm:mb-20 sm:mt-5 max-w-full max-h-full" poster="/background-mare-nostrum-section.jpg">
       <source src="/PS x CJV - Tenue 3 (2nd Ver.).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-  </div>
+  
 
 </div>
 
