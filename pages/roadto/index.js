@@ -6,7 +6,7 @@ const Roadto = () => {
 
 
   return (
-    <div className="scrollable-page bg-bgabove w-full h-full bg-local bg-cover bg-center">
+    <div className="scrollable-page bg-road w-full h-full bg-local bg-cover bg-center">
       <h3 className="flex justify-center items-center text-4xl font-nomark mt-5">
       ROAD TO RICHES
       </h3>

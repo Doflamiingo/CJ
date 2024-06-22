@@ -71,7 +71,7 @@ const About = () => {
           initial="hidden"
           animate="visible"
           exit="hidden"
-          className="text-white text-base xl:text-xl "
+          className="text-white text-base xl:text-xl font-louis"
         >
         La musique est ma principale source d&apos;inspiration, celle qui donne vie
 à chacune de mes œuvres visuelles. C&apos;est cette passion pour la musique
@@ -83,15 +83,18 @@ de plonger dans une ambiance musicale spécifique correspondant à
 l&apos;essence du projet présenté.
 
         </motion.p>
-        <motion.button
-          variants={fadeInButton}
-          initial="hidden"
-          animate="visible"
-          exit="hidden"
-          className="bg-gray-700 hover:bg-gray-600 text-white mt-5 py-2.5 px-5 rounded-full xl-text-2xl sm:mb-36"
-        >
-          Mes projets
-        </motion.button>
+        <a href="/work">
+  <motion.button
+    variants={fadeInButton}
+    initial="hidden"
+    animate="visible"
+    exit="hidden"
+    className="bg-gray-700 hover:bg-gray-600 text-white mt-5 py-2.5 px-5 rounded-full xl-text-2xl sm:mb-36 font-louis"
+  >
+    Mes projets
+  </motion.button>
+</a>
+
       </div>
       <div className="w-full lg:w-1/2 flex items-start justify-center z-10 relative">
         <motion.div

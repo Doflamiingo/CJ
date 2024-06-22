@@ -28,6 +28,7 @@ module.exports = {
         accent: "#C69C6D",
       },
       backgroundImage: {
+        road:'url("/road-to-riches-2.jpg")',
         bathroom:'url("/background-bathroom.jpg")',
         self:'url("/background-image-self-portrait.jpg")',
         parking: 'url("/background-parking-lot.jpg")',
