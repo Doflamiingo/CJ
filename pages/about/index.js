@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const About = () => {
   const fadeIn = {
@@ -83,7 +84,10 @@ de plonger dans une ambiance musicale spécifique correspondant à
 l&apos;essence du projet présenté.
 
         </motion.p>
-        <a href="/work">
+        <Link
+            href="/work"
+          >
+    
   <motion.button
     variants={fadeInButton}
     initial="hidden"
@@ -93,7 +97,7 @@ l&apos;essence du projet présenté.
   >
     Mes projets
   </motion.button>
-</a>
+</Link>
 
       </div>
       <div className="w-full lg:w-1/2 flex items-start justify-center z-10 relative">
